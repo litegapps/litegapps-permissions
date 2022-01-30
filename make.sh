@@ -41,6 +41,7 @@ done
 cat $BASE/layout/end.xml >> $MK
 
 #copy to system
+rm -rf $BASE/system/etc/permissions/$NAME
 cp -pf $MK $BASE/system/etc/permissions/
 rm -rf $TMP
 echo "- Done"
