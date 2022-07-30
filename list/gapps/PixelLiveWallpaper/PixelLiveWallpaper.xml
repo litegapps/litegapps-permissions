@@ -1,0 +1,16 @@
+<privapp-permissions package="com.google.pixel.livewallpaper">
+	<permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<permission android:name="com.google.restricted_assist_gesture.permission.RESTRICTED_ASSIST_GESTURE_PROVIDER" />
+	<permission android:name="com.google.pixel.livewallpaper.permission.DOWNLOAD_LIVE_WALLPAPER" />
+	<permission android:name="com.google.pixel.livewallpaper.permission.RECEIVE_PLACE_PICKER_RESULT" />
+	<permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<permission android:name="android.permission.INTERNET" />
+	<permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<permission android:name="android.permission.AMBIENT_WALLPAPER" />
+	<permission android:name="com.breel.wallpapers.notifications" />
+	<permission android:name="android.permission.VIBRATE" />
+	</privapp-permissions>
+	

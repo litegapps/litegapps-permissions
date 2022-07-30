@@ -22,3 +22,4 @@
   <permission name="android.permission.READ_PHONE_STATE" />
   <permission name="com.google.android.c2dm.permission.RECEIVE" />
   </privapp-permissions>
+  

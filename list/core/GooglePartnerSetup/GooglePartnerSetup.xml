@@ -1,0 +1,6 @@
+<privapp-permissions package="com.google.android.partnersetup">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+        <permission name="android.permission.CHANGE_CONFIGURATION" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    

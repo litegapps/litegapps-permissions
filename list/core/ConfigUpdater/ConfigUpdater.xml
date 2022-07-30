@@ -1,0 +1,4 @@
+<privapp-permissions package="com.google.android.configupdater">
+        <permission name="android.permission.UPDATE_CONFIG" />
+    </privapp-permissions>
+    

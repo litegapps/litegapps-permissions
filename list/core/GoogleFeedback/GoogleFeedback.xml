@@ -1,0 +1,5 @@
+<privapp-permissions package="com.google.android.feedback">
+        <permission name="android.permission.READ_LOGS" />
+        <permission name="android.permission.PACKAGE_USAGE_STATS" />
+    </privapp-permissions>
+    

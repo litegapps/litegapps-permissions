@@ -1,0 +1,14 @@
+<privapp-permissions package="com.google.android.apps.tips">
+	<permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<permission android:name="android.permission.INTERNET" />
+	<permission android:name="android.permission.READ_DEVICE_CONFIG" />
+	<permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<permission android:name="android.permission.USE_BIOMETRIC" />
+	<permission android:name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY" />
+	<permission android:name="com.google.android.apps.safetyhub.carcrash.settings.READ" />
+	<permission android:name="android.permission.GET_PACKAGE_SIZE" />
+	<permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<permission android:name="android.permission.WRITE_SETTINGS" />
+	<permission android:name="com.google.android.apps.nexuslauncher.permission.HOTSEAT_EDU" />
+	</privapp-permissions>
+	

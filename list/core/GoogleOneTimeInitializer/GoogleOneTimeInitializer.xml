@@ -1,0 +1,4 @@
+<privapp-permissions package="com.google.android.onetimeinitializer">
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    </privapp-permissions>
+    

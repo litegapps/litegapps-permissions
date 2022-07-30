@@ -1,0 +1,6 @@
+<privapp-permissions package="com.android.provision">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+    </privapp-permissions>
+    

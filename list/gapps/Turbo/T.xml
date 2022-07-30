@@ -18,3 +18,4 @@
   <permission name="android.permission.ACCESS_WIFI_STATE" />
   <permission name="android.permission.BLUETOOTH" />
   </privapp-permissions>
+  

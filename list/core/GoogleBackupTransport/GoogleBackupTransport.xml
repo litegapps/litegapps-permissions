@@ -1,0 +1,6 @@
+<privapp-permissions package="com.google.android.backuptransport">
+        <permission name="android.permission.BACKUP" />
+        <permission name="android.permission.MODIFY_NETWORK_ACCOUNTING" />
+        <permission name="android.permission.UPDATE_DEVICE_STATS" />
+    </privapp-permissions>
+    

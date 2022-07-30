@@ -1,0 +1,35 @@
+<privapp-permissions package="com.google.android.apps.searchlite">
+	<permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<permission android:name="android.permission.GET_PACKAGE_SIZE" />
+	<permission android:name="android.permission.INTERNET" />
+	<permission android:name="android.permission.WAKE_LOCK" />
+	<permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<permission android:name="android.permission.RECORD_AUDIO" />
+	<permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+	<permission android:name="android.permission.GET_ACCOUNTS" android:maxSdkVersion="22" />
+	<permission android:name="android.permission.MANAGE_ACCOUNTS" android:maxSdkVersion="22" />
+	<permission android:name="com.android.alarm.permission.SET_ALARM" />
+	<permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+	<permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+	<permission android:name="android.permission.FOREGROUND_SERVICE" />
+	<permission android:name="com.google.android.finsky.permission.DSE" />
+	<permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30" />
+	<permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30" />
+	<permission android:name="android.permission.BLUETOOTH_SCAN" />
+	<permission android:name="android.permission.BLUETOOTH_CONNECT" />
+	<permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<permission android:name="android.permission.VIBRATE" />
+	<permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+	<permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+	<permission android:name="android.permission.CALL_PHONE" />
+	<permission android:name="android.permission.CAMERA" />
+	<permission android:name="android.permission.READ_CALENDAR" />
+	<permission android:name="android.permission.READ_CONTACTS" />
+	<permission android:name="android.permission.REORDER_TASKS" />
+	</privapp-permissions>
+	

@@ -33,3 +33,5 @@
   <permission name="android.permission.BLUETOOTH_SCAN" />
   <permission name="android.permission.REQUEST_INSTALL_PACKAGES" />
   </privapp-permissions>
+  
+  

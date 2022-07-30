@@ -1,0 +1,8 @@
+<privapp-permissions package="com.google.android.ims">
+        <permission name="android.permission.BIND_IMS_SERVICE" />
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS" />
+        <permission name="android.permission.MODIFY_PHONE_STATE" />
+        <permission name="android.permission.PACKET_KEEPALIVE_OFFLOAD" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    </privapp-permissions>
+    
