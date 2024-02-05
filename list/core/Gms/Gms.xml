@@ -20,6 +20,7 @@
         <permission name="android.permission.CONTROL_DISPLAY_SATURATION" />
         <permission name="android.permission.CONTROL_INCALL_EXPERIENCE" />
         <permission name="android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS" />
+        <permission name="android.permission.MODIFY_DEFAULT_AUDIO_EFFECTS" />
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE" />
         <permission name="android.permission.DOMAIN_VERIFICATION_AGENT" />
         <permission name="android.permission.DUMP" />
