@@ -283,6 +283,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     </privapp-permissions>
     <privapp-permissions package="com.google.android.pixel.setupwizard">
         <permission name="android.permission.CHANGE_CONFIGURATION" />
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE" />
         <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
         <permission name="android.permission.MANAGE_USERS" />
         <permission name="android.permission.STATUS_BAR" />
