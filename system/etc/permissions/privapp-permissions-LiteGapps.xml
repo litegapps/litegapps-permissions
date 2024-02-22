@@ -56,7 +56,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
     </privapp-permissions>
-    <permissions>
+    
   <privapp-permissions package="com.google.android.gms">
     <permission name="com.google.android.gms" />
     <permission name="android.permission.GET_ACCOUNTS" />
@@ -447,7 +447,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE" />
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE" />
    </privapp-permissions>
-</permissions>
 <privapp-permissions package="com.google.android.carriersetup">
         <permission name="android.permission.CONNECTIVITY_INTERNAL" />
         <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS" />
@@ -539,7 +538,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.READ_EXTERNAL_STORAGE" />
     <permission name="com.google.android.pixel.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <permission name="com.google.android.pixel.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-   </privapp-permissions><privapp-permissions package="com.google.android.partnersetup">
+   </privapp-permissions>
+   <privapp-permissions package="com.google.android.partnersetup">
         <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
         <permission name="android.permission.CHANGE_CONFIGURATION" />
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />

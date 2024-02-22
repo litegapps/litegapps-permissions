@@ -1,4 +1,4 @@
-<permissions>
+
   <privapp-permissions package="com.google.android.gms">
     <permission name="com.google.android.gms" />
     <permission name="android.permission.GET_ACCOUNTS" />
@@ -389,4 +389,3 @@
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE" />
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE" />
    </privapp-permissions>
-</permissions>

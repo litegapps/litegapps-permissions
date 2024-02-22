@@ -27,3 +27,4 @@
     <permission name="com.google.android.pixel.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <permission name="com.google.android.pixel.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
    </privapp-permissions>
+   
