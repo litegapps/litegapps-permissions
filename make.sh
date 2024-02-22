@@ -21,7 +21,6 @@ touch $MK
 #update metadata
 AUTHOR=`getp author $BASE/config`
 C_AUTHOR=`getp author $BASE/layout/head.xml`
-SED "$C_AUTHOR" $AUTHOR $BASE/layout/head.xml
 SED "$(getp date $BASE/layout/head.xml)" "$(date +%d-%m-%Y)" $BASE/layout/head.xml
 #Coment
 cat $BASE/layout/head.xml >> $MK
