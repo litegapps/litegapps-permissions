@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Date : Tue Sep 17 16:11:35 WIB 2024
+  ~ 
+  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~
+-->
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications on GMS or Google-branded devices.
+It allows additional grants on top of privapp-permissions-platform.xml
+-->
+<permissions>
+  <privapp-permissions package="com.google.android.pixel.setupwizard">
+    <permission name="android.permission.CHANGE_CONFIGURATION"/>
+    <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <permission name="android.permission.INTERNET"/>
+    <permission name="android.permission.MANAGE_USERS"/>
+    <permission name="android.permission.SHUTDOWN"/>
+    <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <permission name="android.permission.STATUS_BAR"/>
+    <permission name="android.permission.WRITE_SETTINGS"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+    <permission name="android.permission.VIBRATE"/>
+    <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <permission name="com.google.android.setupwizard.PARTNER_SETUP"/>
+    <permission name="com.google.android.setupwizard.SETUP_COMPAT_SERVICE"/>
+    <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <permission name="android.permission.CHANGE_WIFI_STATE"/>
+    <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+    <permission name="android.permission.NFC"/>
+    <permission name="com.google.android.apps.pixel.factoryota.permission.CONFIG_RESULT"/>
+    <permission name="android.permission.READ_DEVICE_CONFIG"/>
+    <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+    <permission name="com.google.android.pixel.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  </privapp-permissions>
+</permissions>

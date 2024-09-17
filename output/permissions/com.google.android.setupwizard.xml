@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Date : Tue Sep 17 16:11:45 WIB 2024
+  ~ 
+  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~
+-->
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications on GMS or Google-branded devices.
+It allows additional grants on top of privapp-permissions-platform.xml
+-->
+<permissions>
+  <privapp-permissions package="com.google.android.setupwizard">
+    <permission name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+    <permission name="android.permission.ACCESS_NETWORK_STATE"/>
+    <permission name="android.permission.ACCESS_WIFI_STATE"/>
+    <permission name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <permission name="android.permission.BACKUP"/>
+    <permission name="android.permission.CAMERA"/>
+    <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <permission name="android.permission.CHANGE_CONFIGURATION"/>
+    <permission name="android.permission.CHANGE_WIFI_STATE"/>
+    <permission name="android.permission.CHANGE_NETWORK_STATE"/>
+    <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+    <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+    <permission name="android.permission.DISABLE_KEYGUARD"/>
+    <permission name="android.permission.INTERNET"/>
+    <permission name="android.permission.NFC"/>
+    <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <permission name="android.permission.LOCATION_HARDWARE"/>
+    <permission name="android.permission.MANAGE_ACCESSIBILITY"/>
+    <permission name="android.permission.MANAGE_ACCOUNTS"/>
+    <permission name="android.permission.MANAGE_FINGERPRINT"/>
+    <permission name="android.permission.MANAGE_USB"/>
+    <permission name="android.permission.MANAGE_USERS"/>
+    <permission name="android.permission.MASTER_CLEAR"/>
+    <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    <permission name="android.permission.NETWORK_SETUP_WIZARD"/>
+    <permission name="android.permission.NEARBY_WIFI_DEVICES"/>
+    <permission name="android.permission.NOTIFICATION_DURING_SETUP"/>
+    <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+    <permission name="android.permission.PEERS_MAC_ADDRESS"/>
+    <permission name="android.permission.PERFORM_CDMA_PROVISIONING"/>
+    <permission name="android.permission.READ_CONTACTS"/>
+    <permission name="android.permission.READ_PROFILE"/>
+    <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
+    <permission name="android.permission.REBOOT"/>
+    <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+    <permission name="android.permission.SET_TIME"/>
+    <permission name="android.permission.SET_TIME_ZONE"/>
+    <permission name="android.permission.MANAGE_TIME_AND_ZONE_DETECTION"/>
+    <permission name="android.permission.SHUTDOWN"/>
+    <permission name="android.permission.STATUS_BAR"/>
+    <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+    <permission name="android.permission.UPDATE_LOCK_TASK_PACKAGES"/>
+    <permission name="android.permission.GET_PACKAGE_SIZE"/>
+    <permission name="android.permission.USE_BIOMETRIC"/>
+    <permission name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE"/>
+    <permission name="android.permission.USE_COLORIZED_NOTIFICATIONS"/>
+    <permission name="android.permission.USE_CREDENTIALS"/>
+    <permission name="android.permission.WAKE_LOCK"/>
+    <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    <permission name="android.permission.WRITE_CONTACTS"/>
+    <permission name="android.permission.WRITE_PROFILE"/>
+    <permission name="android.permission.MODIFY_SETTINGS_OVERRIDEABLE_BY_RESTORE"/>
+    <permission name="com.android.settings.USE_BIOMETRIC_PROVIDER"/>
+    <permission name="com.android.vending.BIOAUTH_CONSENT"/>
+    <permission name="com.android.vending.TOS_ACKED"/>
+    <permission name="com.google.android.apps.now.OPT_IN_WIZARD"/>
+    <permission name="com.google.android.googleapps.permission.GOOGLE_AUTH"/>
+    <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <permission name="com.google.android.providers.settings.permission.READ_GSETTINGS"/>
+    <permission name="com.google.android.providers.settings.permission.WRITE_GSETTINGS"/>
+    <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY"/>
+    <permission name="com.google.android.setupwizard.SETUP"/>
+    <permission name="com.google.android.setupwizard.SETUP_COMPAT_SERVICE"/>
+    <permission name="com.google.android.setupwizard.PARTNER_SETUP"/>
+    <permission name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <permission name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <permission name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <permission name="android.permission.WRITE_SETTINGS"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <permission name="android.permission.CALL_PHONE"/>
+    <permission name="android.permission.INVOKE_CARRIER_SETUP"/>
+    <permission name="com.android.vending.setup.PLAY_SETUP_SERVICE"/>
+    <permission name="android.permission.FOREGROUND_SERVICE"/>
+    <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+    <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+    <permission name="android.permission.READ_DEVICE_CONFIG"/>
+    <permission name="com.google.android.setupwizard.SETUP_PROGRESS_SERVICE"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    <permission name="android.permission.PROVISION_DEMO_DEVICE"/>
+    <permission name="com.google.android.setupwizard.SETUP_BTS"/>
+    <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY"/>
+    <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN"/>
+    <permission name="com.google.android.setupwizard.WRITE_DEVICE_ORIGIN"/>
+    <permission name="com.google.android.setupwizard.READ_DEFERRED_SETUP_REASON"/>
+    <permission name="com.google.android.setupwizard.PARTNER_SETUP"/>
+    <permission name="com.google.android.setupwizard.SETUP"/>
+    <permission name="com.google.android.setupwizard.SETUP_COMPAT_SERVICE"/>
+    <permission name="com.google.android.setupwizard.SETUP_PROGRESS_SERVICE"/>
+    <permission name="com.google.android.setupwizard.SETUP_BTS"/>
+    <permission name="android.permission.POST_NOTIFICATIONS"/>
+    <permission name="com.google.android.setupwizard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+  </privapp-permissions>
+</permissions>

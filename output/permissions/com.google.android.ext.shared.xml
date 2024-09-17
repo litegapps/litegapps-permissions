@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <!--
-date=22-02-2024
--->
-
-<!--
+  ~ Date : Tue Sep 17 16:12:13 WIB 2024
+  ~ 
   ~ Copyright (C) 2020 - 2024 The Litegapps Project
   ~
-  -->
+-->
 <!--
 This XML file declares which signature|privileged permissions should be granted to privileged
 applications on GMS or Google-branded devices.
 It allows additional grants on top of privapp-permissions-platform.xml
 -->
 <permissions>
-    
+  <privapp-permissions package="com.google.android.ext.shared">
+  </privapp-permissions>
+</permissions>

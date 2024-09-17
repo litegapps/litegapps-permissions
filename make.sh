@@ -1,47 +1,53 @@
-#!/usr/bin/sh
-#litegapps-permissions
-#by wahyu6070
 getp(){ grep "^$1" "$2" | head -n1 | cut -d = -f 2; }
-SED(){
-	local INPUT=$1
-	local OUTPUT=$2
-	local FILE=$3
-	sed -i 's/'"${INPUT}"'/'"${OUTPUT}"'/g' $FILE
-	}
+
 
 BASE=`dirname $(readlink -f $0)`
-NAME="privapp-permissions-LiteGapps.xml"
-TMP=$BASE/tmp
-
-MK=$TMP/$NAME
-rm -rf $TMP
-mkdir -p $TMP
-touch $MK
-
-#update metadata
-AUTHOR=`getp author $BASE/config`
-C_AUTHOR=`getp author $BASE/layout/head.xml`
-SED "$(getp date $BASE/layout/head.xml)" "$(date +%d-%m-%Y)" $BASE/layout/head.xml
-#Coment
-cat $BASE/layout/head.xml >> $MK
+LOG=app.xml
 
 
-echo "     LiteGapps Permissions Builder"
+for YT in $(find $BASE/input -type f -name *apk); do
+PACKAGE_NAME=`aapt d permissions $YT | grep package | head -n1 | cut -d : -f 2 | sed 's/ //g'`
+NUM=$(((NUM+1)))
 echo
-cd $BASE/list
-for I in $(find * -name *.xml -type f); do
-	BASEDIR=`dirname $BASE/$I`
-	echo "- Including <$I>"
-	cat $BASE/list/$I >> $MK
+echo "${NUM}. Make $(basename $YT)"
+OUT=$BASE/output/permissions/${PACKAGE_NAME}.xml
+echo " out : $OUT"
+rm -rf $OUT
+mkdir -p $BASE/output/permissions
+cat <<EOF > "$OUT"
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Date : $(date)
+  ~ 
+  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~
+-->
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications on GMS or Google-branded devices.
+It allows additional grants on top of privapp-permissions-platform.xml
+-->
+<permissions>
+  <privapp-permissions package="$PACKAGE_NAME">
+EOF
 
-
-
+for Y in $(aapt d permissions $YT); do
+	
+if [[ $Y == *name=* ]] && [[ $Y != $PACKAGE_NAME ]]; then
+T=`echo "$Y" | head -n1 | cut -d = -f 2 | sed "s/'//g"`
+T=`echo "$T" | sed "s/'//g"`
+echo "    <permission name=\"$T\"/>" >> $OUT
+elif [[ $Y != *name=* ]] && [[ $Y == *com.* ]] && [[ $Y != $PACKAGE_NAME ]]; then
+T=`echo "$Y" | head -n1 | cut -d = -f 2 | sed "s/'//g"`
+echo "    <permission name=\"$T\"/>" >> $OUT
+		
+fi
 done
-cat $BASE/layout/end.xml >> $MK
 
-#copy to system
-rm -rf $BASE/system/etc/permissions/$NAME
-mkdir -p $BASE/system/etc/permissions/
-cp -pf $MK $BASE/system/etc/permissions/
-rm -rf $TMP
-echo "- Done"
+cat <<EOF >> "$OUT"
+  </privapp-permissions>
+</permissions>
+EOF
+
+sleep 1s
+done
