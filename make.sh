@@ -6,7 +6,7 @@ LOG=app.xml
 
 
 for YT in $(find $BASE/input -type f -name *apk); do
-PACKAGE_NAME=`aapt d permissions $YT | grep package | head -n1 | cut -d : -f 2 | sed 's/ //g'`
+PACKAGE_NAME=`aapt2 dump permissions $YT | grep package | head -n1 | cut -d : -f 2 | sed 's/ //g'`
 NUM=$(((NUM+1)))
 echo
 echo "${NUM}. Make $(basename $YT)"
