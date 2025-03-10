@@ -31,7 +31,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
   <privapp-permissions package="$PACKAGE_NAME">
 EOF
 
-for Y in $(aapt d permissions $YT); do
+for Y in $(aapt2 dump permissions $YT); do
 	
 if [[ $Y == *name=* ]] && [[ $Y != $PACKAGE_NAME ]]; then
 T=`echo "$Y" | head -n1 | cut -d = -f 2 | sed "s/'//g"`
