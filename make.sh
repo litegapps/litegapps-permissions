@@ -19,7 +19,7 @@ cat <<EOF > "$OUT"
 <!--
   ~ Date : $(date)
   ~ 
-  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~ Copyright (C) 2020 - 2025 The Litegapps Project
   ~
 -->
 <!--
