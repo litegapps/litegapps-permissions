@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Date : Tue Sep 17 16:12:02 WIB 2024
+  ~ Date : Sat Mar 14 22:37:26 WIB 2026
   ~ 
-  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~ Copyright (C) 2020 - 2026 The Litegapps Project
   ~
 -->
 <!--
@@ -25,9 +25,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.BLUETOOTH_CONNECT"/>
     <permission name="android.permission.NEARBY_WIFI_DEVICES"/>
     <permission name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS"/>
-    <permission name="android.permission.MANAGE_CLOUDSEARCH"/>
     <permission name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
     <permission name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <permission name="android.permission.RECORD_AUDIO"/>
+    <permission name="android.permission.RECORD_AUDIO"/>
     <permission name="android.permission.SEND_SMS"/>
     <permission name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
     <permission name="android.permission.RECEIVE_SMS"/>
@@ -35,6 +36,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.READ_PHONE_STATE"/>
     <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
     <permission name="android.permission.READ_CONTACTS"/>
+    <permission name="android.permission.FOREGROUND_SERVICE_MICROPHONE"/>
+    <permission name="com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission name="com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <permission name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
     <permission name="com.android.vending.permission.C2D_MESSAGE"/>
     <permission name="com.android.vending.billing.IN_APP_NOTIFY.permission.C2D_MESSAGE"/>
     <permission name="com.google.android.c2dm.permission.RECEIVE"/>
@@ -98,6 +103,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     <permission name="android.permission.FORCE_STOP_PACKAGES"/>
     <permission name="android.permission.LOADER_USAGE_STATS"/>
+    <permission name="com.google.android.gms.permission.BIOAUTH_CONSENT"/>
     <permission name="com.google.android.gms.permission.CAR"/>
     <permission name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
     <permission name="com.google.android.gms.permission.AD_ID"/>
@@ -141,6 +147,13 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED"/>
     <permission name="com.google.android.finsky.permission.PLAY_BILLING_LIBRARY_BROADCAST"/>
     <permission name="android.permission.READ_SYSTEM_GRAMMATICAL_GENDER"/>
+    <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN"/>
+    <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY"/>
+    <permission name="com.google.android.engage.REQUEST_ENGAGE_DATA"/>
+    <permission name="android.permission.QUERY_ADVANCED_PROTECTION_MODE"/>
+    <permission name="android.permission.GET_APP_METADATA"/>
+    <permission name="android.permission.HIDE_STATUS_BAR_NOTIFICATION"/>
+    <permission name="com.google.android.apps.play.games.lib.dekuloguploadservice.permission.UPLOAD_DEKU_LOGS"/>
     <permission name="com.android.vending.appdiscoveryservice.permission.ACCESS_APP_DISCOVERY_SERVICE"/>
     <permission name="com.android.vending.CHECK_LICENSE"/>
     <permission name="com.android.vending.BILLING"/>
@@ -160,7 +173,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <permission name="com.google.android.finsky.permission.INTERNAL_BROADCAST"/>
     <permission name="com.google.android.finsky.permission.PLAY_BILLING_LIBRARY_BROADCAST"/>
+    <permission name="com.google.android.engage.REQUEST_ENGAGE_DATA"/>
+    <permission name="com.android.vending.billing.BILLING_SERVICE"/>
     <permission name="com.google.android.finsky.permission.DEVELOPER_GROUP_ID_INFO"/>
-    <permission name="com.android.vending.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
   </privapp-permissions>
 </permissions>

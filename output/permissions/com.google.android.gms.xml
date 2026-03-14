@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Date : Tue Sep 17 16:11:10 WIB 2024
+  ~ Date : Sat Mar 14 22:36:33 WIB 2026
   ~ 
-  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~ Copyright (C) 2020 - 2026 The Litegapps Project
   ~
 -->
 <!--
@@ -28,6 +28,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.RENOUNCE_PERMISSIONS"/>
     <permission name="android.permission.POST_NOTIFICATIONS"/>
     <permission name="android.permission.READ_SYSTEM_GRAMMATICAL_GENDER"/>
+    <permission name="android.permission.SETUP_FSVERITY"/>
     <permission name="com.google.android.gms.permission.INTERNAL_BROADCAST"/>
     <permission name="com.google.android.gms.permission.INTERNAL_BROADCAST"/>
     <permission name="com.google.android.gms.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
@@ -51,6 +52,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.permission.AD_ID_NOTIFICATION"/>
     <permission name="com.google.android.gms.permission.AD_ID"/>
     <permission name="com.google.android.gms.permission.AD_ID"/>
+    <permission name="android.permission.OBSERVE_ROLE_HOLDERS"/>
     <permission name="android.permission.MODIFY_ADSERVICES_STATE"/>
     <permission name="android.permission.ACCESS_ADSERVICES_STATE"/>
     <permission name="android.permission.MODIFY_ADSERVICES_STATE_COMPAT"/>
@@ -102,6 +104,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.permission.REQUEST_SCREEN_LOCK_COMPLEXITY"/>
     <permission name="com.google.android.gms.permission.REQUEST_SCREEN_LOCK_COMPLEXITY"/>
     <permission name="android.permission.SET_BIOMETRIC_DIALOG_ADVANCED"/>
+    <permission name="android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS"/>
     <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
     <permission name="android.permission.ALLOCATE_AGGRESSIVE"/>
     <permission name="android.car.permission.CAR_POWER"/>
@@ -113,20 +116,40 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.trustagent.framework.model.DATA_ACCESS"/>
     <permission name="com.google.android.gms.trustagent.framework.model.DATA_CHANGE_NOTIFICATION"/>
     <permission name="com.google.android.gms.trustagent.framework.model.DATA_CHANGE_NOTIFICATION"/>
+    <permission name="com.google.wear.permission.READ_DISPLAY_CONFIG"/>
     <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <permission name="android.permission.READ_CONTACTS"/>
     <permission name="android.permission.USE_FINGERPRINT"/>
     <permission name="android.permission.USE_BIOMETRIC"/>
     <permission name="android.permission.SEND_SMS_NO_CONFIRMATION"/>
+    <permission name="com.android.vending.BILLING"/>
     <permission name="com.google.android.gms.auth.api.phone.permission.SEND"/>
     <permission name="com.google.android.gms.auth.api.phone.permission.SEND"/>
+    <permission name="com.google.android.gms.security.permission.BANK_SCAM_WARNING"/>
+    <permission name="com.google.android.gms.security.permission.BANK_SCAM_WARNING"/>
+    <permission name="com.google.android.gms.dtdi.permission.START_COMPONENTS"/>
+    <permission name="com.google.android.gms.dtdi.permission.START_COMPONENTS"/>
+    <permission name="android.permission.HIDE_OVERLAY_WINDOWS"/>
     <permission name="android.permission.CAMERA"/>
     <permission name="android.permission.FLASHLIGHT"/>
-    <permission name="com.google.android.wearable.WRITE_SETTINGS"/>
     <permission name="com.felicanetworks.mfc.permission.MFC_ACCESS"/>
     <permission name="com.felicanetworks.mfc.mfi.permission.MFI_ACCESS"/>
+    <permission name="com.google.android.gms.permission.SEND_ANDROID_PAY_DATA"/>
+    <permission name="com.google.android.gms.permission.SEND_ANDROID_PAY_DATA"/>
+    <permission name="com.google.android.gms.permission.SHOW_TRANSACTION_RECEIPT"/>
+    <permission name="com.google.android.gms.permission.SHOW_TRANSACTION_RECEIPT"/>
+    <permission name="com.google.android.gms.permission.REPORT_TAP"/>
+    <permission name="com.google.android.gms.permission.REPORT_TAP"/>
+    <permission name="com.google.android.gms.permission.SHOW_PAYMENT_CARD_DETAILS"/>
+    <permission name="com.google.android.gms.permission.SHOW_PAYMENT_CARD_DETAILS"/>
+    <permission name="com.google.android.wearable.WRITE_SETTINGS"/>
+    <permission name="com.google.android.gms.permission.READ_VALUABLES_IMAGES"/>
+    <permission name="com.google.android.gms.permission.READ_VALUABLES_IMAGES"/>
+    <permission name="com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP"/>
+    <permission name="com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP"/>
     <permission name="com.google.android.gms.permission.GOOGLE_PAY"/>
     <permission name="com.google.android.gms.permission.GOOGLE_PAY"/>
+    <permission name="android.permission.PREPARE_FACTORY_RESET"/>
     <permission name="android.permission.PACKAGE_USAGE_STATS"/>
     <permission name="com.google.android.gms.permission.APPINDEXING"/>
     <permission name="com.google.android.gms.permission.APPINDEXING"/>
@@ -172,6 +195,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.permission.NEARBY_START_DISCOVERER"/>
     <permission name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
     <permission name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <permission name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED"/>
     <permission name="com.android.vending.p2p.APP_INSTALL_API"/>
     <permission name="com.sec.android.app.myfiles.permission.READ"/>
     <permission name="com.sec.android.app.myfiles.permission.WRITE"/>
@@ -202,6 +226,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.magictether.permission.DISABLE_SOFT_AP"/>
     <permission name="com.google.android.gms.magictether.permission.SCANNED_DEVICE"/>
     <permission name="android.permission.CONTROL_DISPLAY_SATURATION"/>
+    <permission name="android.permission.GET_ROLE_HOLDERS"/>
     <permission name="android.permission.SET_TIME_ZONE"/>
     <permission name="android.permission.GET_TASKS"/>
     <permission name="android.permission.REAL_GET_TASKS"/>
@@ -210,6 +235,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
     <permission name="com.google.android.gms.permission.CONTACTS_SYNC_DELEGATION"/>
     <permission name="com.google.android.gms.permission.CONTACTS_SYNC_DELEGATION"/>
+    <permission name="android.permission.SET_DEFAULT_ACCOUNT_FOR_CONTACTS"/>
     <permission name="com.google.android.gms.people.permission.contactssync.BACKUP_SYNC_STATE_UPDATE_BROADCAST"/>
     <permission name="com.google.android.gms.people.permission.contactssync.BACKUP_SYNC_STATE_UPDATE_BROADCAST"/>
     <permission name="android.permission.WRITE_CONTACTS"/>
@@ -269,8 +295,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.googlehelp.LAUNCH_SUPPORT_SCREENSHARE"/>
     <permission name="com.google.android.gms.googlehelp.LAUNCH_SUPPORT_SCREENSHARE"/>
     <permission name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <permission name="com.google.android.gms.permission.wearable.BUGREPORT_USER_CONSENT"/>
     <permission name="com.google.android.clockwork.settings.SHOW_FACTORY_RESET_CONFIRMATION"/>
     <permission name="com.google.android.wearable.READ_SETTINGS"/>
+    <permission name="com.google.android.gms.permission.wearable.BUGREPORT_USER_CONSENT"/>
     <permission name="com.google.android.wearable.permission.URI_REDIRECT_TO_REMOTE"/>
     <permission name="com.google.android.gms.cloudsave.BIND_EVENT_BROADCAST"/>
     <permission name="com.google.android.gms.cloudsave.BIND_EVENT_BROADCAST"/>
@@ -289,12 +317,16 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.SET_LOW_POWER_STANDBY_PORTS"/>
     <permission name="android.permission.SCHEDULE_PRIORITIZED_ALARM"/>
     <permission name="com.google.android.apps.nest.CAST_AUTH_SERVICE"/>
+    <permission name="android.permission.LOG_COMPAT_CHANGE"/>
+    <permission name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
+    <permission name="android.permission.ACCESS_LOCAL_NETWORK"/>
     <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
     <permission name="com.google.android.gms.smartdevice.permission.NOTIFY_QUICK_START_STATUS"/>
     <permission name="com.google.android.gms.smartdevice.permission.NOTIFY_QUICK_START_STATUS"/>
     <permission name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
     <permission name="com.google.android.setupwizard.READ_DEVICE_ORIGIN_FIRST_PARTY"/>
     <permission name="com.google.android.setupwizard.WRITE_DEVICE_ORIGIN"/>
+    <permission name="com.google.android.setupwizard.pairing.NEARBY_BACKUP_SERVICE"/>
     <permission name="com.google.android.gms.chimera.permission.QUERY_MODULES"/>
     <permission name="android.permission.MODIFY_AUDIO_SETTINGS"/>
     <permission name="android.permission.WRITE_CALL_LOG"/>
@@ -312,6 +344,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.apps.now.OPT_IN_WIZARD"/>
     <permission name="com.google.android.gms.permission.GROWTH"/>
     <permission name="com.google.android.gms.permission.GROWTH"/>
+    <permission name="com.google.android.gms.permission.BIOAUTH_CONSENT"/>
+    <permission name="com.google.android.gms.permission.BIOAUTH_CONSENT"/>
     <permission name="com.google.android.setupwizard.SETUP_COMPAT_SERVICE"/>
     <permission name="android.permission.MANAGE_TIME_AND_ZONE_DETECTION"/>
     <permission name="android.permission.EMERGENCY_INSTALL_PACKAGES"/>
@@ -344,6 +378,13 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.THREAD_NETWORK_PRIVILEGED"/>
     <permission name="android.permission.WRITE_VERIFICATION_STATE_E2EE_CONTACT_KEYS"/>
     <permission name="android.permission.SATELLITE_COMMUNICATION"/>
+    <permission name="android.permission.QUERY_ADVANCED_PROTECTION_MODE"/>
+    <permission name="android.permission.MANAGE_ADVANCED_PROTECTION_MODE"/>
+    <permission name="android.permission.SUBSCRIBE_TO_KEYGUARD_LOCKED_STATE"/>
+    <permission name="android.permission.READ_INTRUSION_DETECTION_STATE"/>
+    <permission name="android.permission.MANAGE_INTRUSION_DETECTION_STATE"/>
+    <permission name="com.google.wear.permission.READ_BATTERY_SAVER"/>
+    <permission name="com.google.wear.permission.READ_FOCUS_MODES"/>
     <permission name="android.permission.PROVIDE_DEFAULT_ENABLED_CREDENTIAL_SERVICE"/>
     <permission name="android.permission.PROVIDE_REMOTE_CREDENTIALS"/>
     <permission name="com.google.android.gms.auth.authzen.permission.DEVICE_SYNC_FINISHED"/>
@@ -370,6 +411,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"/>
     <permission name="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"/>
     <permission name="android.permission.BODY_SENSORS"/>
+    <permission name="android.permission.health.READ_HEART_RATE"/>
     <permission name="com.google.android.gms.game.notifications.permission.WRITE"/>
     <permission name="com.google.android.gms.permission.C2D_MESSAGE"/>
     <permission name="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE"/>
@@ -377,6 +419,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE"/>
     <permission name="com.google.android.gms.permission.BROADCAST_TO_GOOGLEHELP"/>
     <permission name="com.google.android.gms.permission.BROADCAST_TO_GOOGLEHELP"/>
+    <permission name="android.permission.health.READ_HEALTH_DATA_IN_BACKGROUND"/>
     <permission name="com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS"/>
     <permission name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
     <permission name="android.permission.HIGH_SAMPLING_RATE_SENSORS"/>
@@ -389,22 +432,12 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.RESET_PASSWORD"/>
     <permission name="android.permission.LOCK_DEVICE"/>
     <permission name="android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS"/>
+    <permission name="android.permission.MANAGE_SECURE_LOCK_DEVICE"/>
     <permission name="android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS"/>
-    <permission name="com.google.android.gms.permission.SEND_ANDROID_PAY_DATA"/>
-    <permission name="com.google.android.gms.permission.SHOW_TRANSACTION_RECEIPT"/>
-    <permission name="com.google.android.gms.permission.REPORT_TAP"/>
-    <permission name="com.google.android.gms.permission.SHOW_PAYMENT_CARD_DETAILS"/>
-    <permission name="com.google.android.gms.permission.READ_VALUABLES_IMAGES"/>
-    <permission name="com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP"/>
-    <permission name="com.google.android.gms.permission.SEND_ANDROID_PAY_DATA"/>
-    <permission name="com.google.android.gms.permission.SHOW_TRANSACTION_RECEIPT"/>
-    <permission name="com.google.android.gms.permission.REPORT_TAP"/>
-    <permission name="com.google.android.gms.permission.SHOW_PAYMENT_CARD_DETAILS"/>
-    <permission name="com.google.android.gms.permission.READ_VALUABLES_IMAGES"/>
-    <permission name="com.google.android.gms.permission.SHOW_WARM_WELCOME_TAPANDPAY_APP"/>
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE"/>
     <permission name="com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE"/>
     <permission name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission name="com.google.android.c2dm.permission.SEND"/>
     <permission name="com.google.android.providers.settings.permission.WRITE_GSETTINGS"/>
     <permission name="com.google.android.gtalkservice.permission.GTALK_SERVICE"/>
     <permission name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>

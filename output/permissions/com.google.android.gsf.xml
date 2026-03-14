@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Date : Tue Sep 17 16:11:51 WIB 2024
+  ~ Date : Sat Mar 14 22:37:02 WIB 2026
   ~ 
-  ~ Copyright (C) 2020 - 2024 The Litegapps Project
+  ~ Copyright (C) 2020 - 2026 The Litegapps Project
   ~
 -->
 <!--
@@ -146,10 +146,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <permission name="android.permission.INTERACT_ACROSS_USERS"/>
     <permission name="android.permission.READ_DEVICE_CONFIG"/>
     <permission name="android.permission.MANAGE_USERS"/>
-    <permission name="does.not.matter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <permission name="com.google.android.gsf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <permission name="com.google.android.gsf.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
-    <permission name="androidx.legacy.coreutils.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
-    <permission name="androidx.legacy.coreui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
   </privapp-permissions>
 </permissions>
